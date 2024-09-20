@@ -1,0 +1,358 @@
+*{
+    /* color: white; */
+   
+}
+
+body {
+    background-color: black;
+}
+/* .header{
+    background-color: purple;
+    
+} */
+h3{
+    color: white;
+}
+h1 {
+    color: deepskyblue;
+    font-style: italic;
+    text-align: left;
+    font-family: times new roman;
+}
+
+hr {
+    position: relative;
+    bottom: 12px;
+    border-color: lightblue;
+}
+
+.quote {
+    color: white;
+    font-style: italic;
+    font-size: 0.95em;
+    margin-left: 175px;
+    position: relative;
+    bottom: 18px;
+}
+
+.navbar ul {
+    text-align: right;
+    position: relative;
+    bottom: 60px;
+margin-right: 2px;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: deepskyblue;
+    
+}
+
+.navbar a {
+
+    color: #fff;
+
+}
+.button {
+    text-align: right;
+    position: relative;
+    bottom: 65px;
+    margin-right: 2px;
+}
+.button :hover{
+    cursor: pointer;
+}
+
+.button p {
+    margin-top: 5px;
+    text-align: right;
+    font-size: 12px;
+    color: white;
+}
+
+h4{
+    color: white;
+    position: relative;
+    bottom: 20px;
+    margin-left: 70px;
+}
+
+.c1 {
+    font-family: times new roman;
+    background-color: purple;
+    border: darkturquoise 2px solid;
+    border-radius: 7px;
+    position: relative;
+    bottom: 35px;
+    width: 90%;
+    margin-left: 70px;
+}
+
+.c1 a{
+    color: darkturquoise;
+}
+
+.container-1 p {
+    font-size: 15px;
+    color: black;
+    font-style: italic;
+    font-family: times new roman
+}
+
+/* a[target] {
+    background-color: pink;
+} */
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: green;
+}
+
+/* a:visited {
+    color: black;
+} */
+
+.container-1 {
+    display: flex;
+    position: relative;
+    bottom: 62px;
+    width: 80%;
+    margin-left: 140px;
+}
+
+.container-1 div {
+    border: 3px solid darkturquoise;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    margin: 2px;
+    background-color: 00FFFF;
+}
+
+.box-1 {
+    flex: 1;
+    background-color: darkcyan;
+    background-image: url(html3.jpg);
+    background-size: contain;
+}
+
+.box-1 a {
+    position: absolute;
+    left: 315px;
+    color: black;
+    font-size: 0.95em;
+    font-style: italic;
+    font-family: times new roman;
+    
+}
+
+.box-1 a:hover {
+    color: red;
+}
+
+.container-1 h5 {
+    position: relative;
+    top: -5px;
+}
+
+.box-2 {
+    flex: 1;
+    background-color: darkgoldenrod;
+    background-image: url(css.jpeg);
+    background-size: contain;
+}
+
+.box-2 a {
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    color: black;
+    font-size: 0.95em;
+    text-align: right;
+    font-style: italic;
+    font-family: times new roman;
+}
+
+.box-2 a:hover {
+    color: red;
+}
+
+.box-3 {
+    flex: 1;
+    background-color: darkseagreen;
+    background-image: url(js1.png);
+    background-size: contain;
+}
+
+.box-3 a {
+    position: relative;
+    right: 90px;
+
+    color: black;
+    font-size: 0.95em;
+    text-align: right;
+    font-style: italic;
+    font-family: times new roman;
+}
+
+.box-3 a:hover {
+    color: red;
+}
+.click p {
+    margin-left: 1150px;
+    color: white;
+    font-style: italic;
+    position: relative;
+    bottom: 92px;
+}
+.click a{
+    color: orange;
+}
+.click a:hover{
+    color: red;
+}
+
+.table_data {
+    width: 52%;
+    height: 150px;
+    position: relative;
+    bottom: 97px;
+    background-color: rgb(87, 11, 11);
+    margin-left: 330px;
+    
+}
+
+.table_data,
+.table_data th,
+.table_data td {
+    color: lightblue;
+    text-align: center;
+    font-style: italic;
+    font-family: times new roman;
+    border: 2px solid lightslategray;
+    border-collapse: collapse;
+}
+/* .register {
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+} */
+
+.register h4 {
+    color: white;
+    position: relative;
+    bottom: 100px;
+    margin-left: 450px;
+}
+
+.form-control {
+    background-color: orange;
+    width: 35%;
+    height: 140px;
+    padding: 12px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 115px;
+    margin-left: 450px;
+}
+
+.form-control i {
+    display: none;
+}
+
+.form-control input:focus {
+    outline: none;
+    border-color: red;
+}
+
+.form-control.success i.fa-check-circle {
+    color: green;
+    visibility: visible;
+}
+
+.form-control.error i.fa-exclamation {
+    color: red;
+    visibility: visible;
+}
+
+.register label {
+    font-style: italic;
+}
+
+h6 {
+    margin-top: 15px;
+    font-style: italic;
+    color: black;
+    font-size: 0.2em;
+    font-family: times new roman;
+}
+
+
+
+::placeholder {
+    color: gray;
+    font-style: italic;
+    font-size: 1em;
+}
+
+
+
+.img {
+    position: relative;
+    bottom: 80px;
+    margin-left: 490px;
+}
+/* .container{
+    display: inline-block;
+} */
+.follow,.rights{
+    display: inline-block;
+}
+.follow{
+   margin-left: 500px;
+}
+.follow ul {
+    position: relative;
+    bottom: 80px;
+    right: 20px;
+    text-align: center;
+}
+
+.follow a {
+
+    color: deepskyblue;
+}
+
+.follow li {
+    display: inline-block;
+    padding: 1px;
+    background-color: white;
+    border-radius: 3px;
+
+}
+
+.follow h6 {
+    position: relative;
+    bottom: 60px;
+    text-align: center;
+    font-family: times new roman;
+    font-style: italic;
+    font-size: 12px;
+    color: gray;
+} 
+
+.rights h6 {
+    position: relative;
+    bottom: 75px;
+    font-size: 12px;
+    color: gray;
+}
